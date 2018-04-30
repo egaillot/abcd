@@ -1,7 +1,10 @@
-var expect = require("expect.js");
+var expect = require("expect.js"),
+    ABCD = require("../lib/abcd");
 
 describe("The ABCD-er", function () {
-  it("fails", function () {
-    expect(1 + 1).to.eql(3);
+  it("tells first week of the year is type A", function () {
+    var abcder = ABCD.newAbcder(),
+        weekType = abcder.fromWeek(1);
+    expect(weekType).to.eql("A");
   });
 });
