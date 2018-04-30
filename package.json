@@ -1,0 +1,26 @@
+{
+  "name": "abcd",
+  "version": "1.0.0",
+  "description": "ABCD week-type decider",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/egaillot/abcd.git"
+  },
+  "author": "Emmanuel Gaillot",
+  "license": "WTFPL",
+  "bugs": {
+    "url": "https://github.com/egaillot/abcd/issues"
+  },
+  "homepage": "https://github.com/egaillot/abcd#readme",
+  "dependencies": {
+    "npm": "^6.0.0"
+  },
+  "devDependencies": {
+    "expect.js": "^0.3.1",
+    "mocha": "^5.1.1"
+  }
+}
